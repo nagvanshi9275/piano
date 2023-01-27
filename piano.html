@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual piano</title>
+    <link rel="stylesheet" href="piano.css">
+</head>
+<body>
+
+<div class="container">
+
+
+<div class="baap">
+
+<div class="black-key">
+
+<div class="blackc"></div>
+<div class="blackc"></div>
+<div class="blackc"></div>
+<div class="blackc"></div>
+<div class="blackc"></div>
+<div class="blackc"></div>
+<div class="blackc"></div>
+<div class="blackc"></div>
+
+
+</div>
+
+<div class="white-key">
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+<div class="whitec"></div>
+
+</div>
+</div>
+
+
+</div>
+
+<audio id="keshariya" src="https://wynk.in/u/kLcCQejOC"></audio>
+<audio id="dunia" src="Let Me Love You_64(PagalWorld.com.se).mp3"></audio>
+
+<script>
+
+// now we are going to targeting each and every buttons 
+
+let balck = document.querySelectorAll(".blackc");
+
+let white = document.querySelectorAll(".whitec");
+
+let xmas = document.getElementById("keshariya");
+
+let safar = document.getElementById("dunia");
+
+
+
+//console.log(balck)
+
+//console.log(white)
+balck.forEach(function (blackc) {
+blackc.addEventListener('click', function () {
+
+    safar.pause()
+
+    xmas.play()
+    
+})
+
+
+
+    
+})
+
+white.forEach(function(whitec) {
+
+whitec.addEventListener('click',function() {
+
+    xmas.pause()
+
+    safar.play()
+    
+})
+
+    
+})
+
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,161 @@
+*{
+margin: 0px;
+padding: 0px;
+
+
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+
+height: 100vh;
+align-content: center;
+
+
+}
+
+.container{
+
+height: 400px;
+width: 800px;
+background-color: coral;
+
+
+
+}
+
+.whitec{
+height: 200px;
+width: 60px;
+background-color: white;
+border: 2px solid black;
+
+
+
+
+}
+
+
+.white-key{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+}
+
+.blackc{
+
+height: 100px;
+width: 40px;
+background-color: black;
+border: 3px solid red;
+position: absolute;
+
+
+
+}
+
+
+.black-key{
+    display: flex;
+    
+   position: relative;
+
+
+
+
+
+}
+
+.baap{
+
+position: relative;
+
+}
+
+.blackc:nth-child(1){
+
+left: 48px;
+
+
+}
+
+.blackc:nth-child(2){
+
+    left: 117px;
+    
+    
+    }
+
+
+    .blackc:nth-child(3){
+
+        left: 253px;
+        
+        
+        }
+
+
+        .blackc:nth-child(4){
+
+            left: 320px;
+            
+            
+            }
+
+
+      .blackc:nth-child(5){
+
+                left: 389px;
+                
+                
+                }
+
+
+        .blackc:nth-child(6){
+
+          left: 525px;
+                    
+                    
+          }
+
+
+          .blackc:nth-child(7){
+
+            left: 594px;
+            
+            
+            }
+
+            .blackc:nth-child(8){
+
+                left: 662px;
+                
+                
+                }
+
+
+                .blackc:nth-child(9){
+
+                    left: 797px;
+                    
+                    
+                    }
+
+                    .blackc:nth-child(10){
+
+                        left: 865px;
+                        
+                        
+                        }
+
+
+
+
